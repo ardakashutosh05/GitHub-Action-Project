@@ -1,3 +1,6 @@
-a = 5
-b = 7
-print(a+a)
+
+"simple code"
+A = 5
+B = 7
+print(A+A)
+print(B)

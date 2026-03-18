@@ -24,7 +24,7 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Run Lint (Code Quality)
-        run: flake8 .
+        run: flake8 . --exclude=venv
 
       - name: Run Tests
         run: pytest
